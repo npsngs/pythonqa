@@ -34,8 +34,8 @@ def parseDict(lineStr):
 while True:
 	line = dictFile.readline()
 	line = line.decode('utf-8')
+	print line
 	if ifPause:
-		print line
 		print ':',
 
 	if ('' == line):
